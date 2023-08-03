@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RealTime-Weather-Webapp/static/css/main.d2cdd7d1.css",
+    "main.js": "/RealTime-Weather-Webapp/static/js/main.6652f5a6.js",
+    "index.html": "/RealTime-Weather-Webapp/index.html",
+    "main.d2cdd7d1.css.map": "/RealTime-Weather-Webapp/static/css/main.d2cdd7d1.css.map",
+    "main.6652f5a6.js.map": "/RealTime-Weather-Webapp/static/js/main.6652f5a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2cdd7d1.css",
+    "static/js/main.6652f5a6.js"
+  ]
+}
