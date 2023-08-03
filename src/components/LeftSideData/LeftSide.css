@@ -1,0 +1,75 @@
+.form-bar {
+  margin: 25px 20px 20px 20px;
+  height: 1.5rem;
+  display: flex;
+}
+
+.form-bar input{
+  width: 80%;
+}
+
+.form-bar button img{
+  height: 1.3rem;
+}
+
+.header {
+  margin: 5px 20px 0 20px;
+  height: 1.5rem;
+  position: relative;
+}
+
+.back {
+  height: 1.5rem;
+}
+
+.back img {
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 1.5rem;
+}
+
+.back img:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in;
+}
+
+.left-side {
+  color: white;
+}
+
+.time-date {
+  margin: 1.2rem 0 0.5rem 0;
+}
+
+.time {
+  font-size: 2.5rem;
+}
+
+.date {
+  font-size: 0.9rem;
+}
+
+.temperature {
+  margin-top: 0.5rem;
+  font-size: 4.5rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.weather {
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+.astro {
+  margin: 2rem 1.5rem;
+  display: grid;
+  grid-template-columns: 65% auto;
+  row-gap: 5;
+}

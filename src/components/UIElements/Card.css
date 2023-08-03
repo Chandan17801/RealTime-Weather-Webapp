@@ -1,0 +1,21 @@
+.card {
+  border-radius: 25px;
+}
+
+.card.main-card {
+  height: 601px;
+  width: 75vw;
+  max-width: 1100px;
+  background-color: #5c9ce5;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.inner-card {
+  height: 571px;
+  background-color: #e4f1ff;
+  padding: 15px;
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: 40% auto;
+}

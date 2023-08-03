@@ -1,0 +1,26 @@
+.toggle {
+  height: 1.5rem;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: 20% 60% auto;
+}
+
+.toggle-border {
+  border: 2px solid black;
+  border-radius: 0.75rem;
+  background-color: white;
+  color: black;
+}
+
+.toggle-ball{
+  transform: translateX(0);
+  transition: transform 0.5s;
+}
+
+.toggle-ball.active{
+  transform: translateX(40%);
+}
